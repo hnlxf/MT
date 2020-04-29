@@ -60,12 +60,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8ACA0D5A3D1E1078F4D8A68D /* Mutils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Mutils.podspec; path = ../Mutils.podspec; sourceTree = "<group>"; };
+		8ACA0D5A3D1E1078F4D8A68D /* Mutils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Mutils.podspec; path = ../Mutils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CA37C931CD65C0D0608E7D3 /* Pods-Mutils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mutils_Example.release.xcconfig"; path = "Target Support Files/Pods-Mutils_Example/Pods-Mutils_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A250CD35AF7A20FEA0DCC04F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A250CD35AF7A20FEA0DCC04F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A82EB56D8DE9B5EB8E3A69E3 /* Pods-Mutils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mutils_Tests.release.xcconfig"; path = "Target Support Files/Pods-Mutils_Tests/Pods-Mutils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AC4A6893E25274C68B58CE1B /* Pods_Mutils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mutils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E50230554EDFC3BB23D1744F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E50230554EDFC3BB23D1744F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F5BD8C44045CF6F28509DD44 /* Pods-Mutils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mutils_Example.debug.xcconfig"; path = "Target Support Files/Pods-Mutils_Example/Pods-Mutils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				39E1492183285235F50F42D0 /* Pods-Mutils_Tests.debug.xcconfig */,
 				A82EB56D8DE9B5EB8E3A69E3 /* Pods-Mutils_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

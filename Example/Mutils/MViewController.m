@@ -7,7 +7,7 @@
 //
 
 #import "MViewController.h"
-
+#import <MTConstant.h>
 @interface MViewController ()
 
 @end
@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"======%@",KURL);
 }
 
 - (void)didReceiveMemoryWarning
